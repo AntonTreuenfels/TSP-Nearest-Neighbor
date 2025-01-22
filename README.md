@@ -14,4 +14,4 @@ No single experiment consistently produced the minimum length tour found, but ov
 
 What does change is the time taken to achieve a test result, much more than the result itself. The more nodes a problem has, the longer it takes to run a complete test of it. However, there is a general trend that the average amount of checking an experiment does is less if the first node pairs checked are far apart rather than close together.
 
-The experiments are presened in the form of Jupyter notebooks running Python 3.7. Each file contains the output of what was tried for that experiment, so TSPLIB itself is not required to see the results (though it will be in order to play with any of the experiments).
+The experiments are presented in the form of Jupyter notebooks programmed using Python 3.7. Each file contains the complete output of what was tried for that experiment, so TSPLIB itself is not required to see the results (though it will be in order to play with any of the experiments).
