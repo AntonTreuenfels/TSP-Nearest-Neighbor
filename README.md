@@ -10,8 +10,8 @@ The improvement function is perhaps the most unique factor in these experiments.
 
 The first experiments simply apply whichever change results in the greatest decrease, and so are purely determinisitic. Later experiments note when more than one change results in a reduction and probablistically choose between them.
 
-No single experiment consistently produced the minimum length tour found, but overall the results are remarkably robust. They are very similar no matter how many nodes there are or how long or short the optimum path is. The minimum length route found is usually within 2% of the optimum (often within 1%, and sometimes exactly the optimum), while the average over all improved routes is usually within 5% of the optimum.
+No single experiment consistently produced the minimum length tour found, but overall the results are remarkably robust. They are very similar no matter how many nodes there are or how long or short the optimum path is. The minimum length route found is usually within 2% of the optimum and often within 1% (and sometimes exactly the optimum), while the average over all improved routes is usually within 5% of the optimum.
 
-What does change is the time taken to achieve a test result, much more than the result itself. The more nodes a problem has, the longer it takes to run a complete test of it. However, there is a general trend that the average amount of checking an experiment does is less if the first node pairs are far apart rather than close together.
+What does change is the time taken to achieve a test result, much more than the result itself. The more nodes a problem has, the longer it takes to run a complete test of it. However, there is a general trend that the average amount of checking an experiment does is less if the first node pairs checked are far apart rather than close together.
 
 The experiments are presened in the form of Jupyter notebooks running Python 3.7. Each file contains the output of what was tried for that experiment, so TSPLIB itself is not required to see the results (though it will be in order to play with any of the experiments).
