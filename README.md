@@ -1,6 +1,6 @@
 This repository contains some experiments regarding approximate solutions to the Traveling Salesman's Problem.
 
-Problem examples are Euclidean 2D ones taken from TSPLIB. They range in size from 51 to 442 nodes, and have known optimal solutions to which results of these experiments can be compared.
+Problem examples are Euclidean 2D ones taken from TSPLIB (http://comopt.ifi.uni-heidelberg.de/software/TSPLIB95/). They range in size from 51 to 442 nodes, and have known optimal solutions to which results of these experiments can be compared.
 
 The general approach taken here is to construct all Nearest Neighbor tours for a given problem (one for each node) and then try to improve each one. The resulting minimum, maximum and average tours are compared to the known optimal tour. Results are presented both as visual plots and summary statistics.
 
